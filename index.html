@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Dmitry Andreev</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#003147">
+	<meta name="msapplication-TileColor" content="#003147">
+	<meta name="theme-color" content="#003147">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="navigation">
+			<ul>
+				<li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+				<li><a href="#about" onclick="toggleMenu();">About</a></li>
+				<li><a href="#services" onclick="toggleMenu();">Services</a></li>
+				<li><a href="#project" onclick="toggleMenu();">Project</a></li>
+				<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+			</ul>
+			<div class="clock">
+				<div class="hour">
+					<div class="hours"></div>
+				</div>
+				<div class="minute">
+					<div class="minutes"></div>
+				</div>
+				<div class="second">
+					<div class="seconds"></div>
+				</div>
+			</div>
+			<div class="theme-switch"></div>
+		</div>
+		<div class="main">
+			<div class="topbar">
+				<a href="#" class="logo">Дмитрий Андреев</a>
+				<div class="toggle">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+			</div>
+
+			<section class="banner" id="banner">
+				<div class="content">
+					<div class="img__box">
+						<img src="cv/img/img.jpg" alt="foto">
+					</div>
+					<div class="animated-text">
+						<h2>СОЗДАНИЕ WEB-САЙТОВ</h2>
+						<h2>АДАПТИВНАЯ, КРОССБРАУЗЕРНАЯ ВЕРСТКА</h2>
+						<h2>НА HTML,CSS И JS</h2>
+					</div>
+					<p class="animate__animated animate__fadeInRightBig">frontend разработка</p>
+					<a href="cv/index.html" class="btn">Мое резюме</a>
+					<ul class="social__media">
+						<li><a href="https://www.facebook.com/profile.php?id=100043999665987" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://t.me/DIMITRIDIS" target="blank"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+						<li><a href="https://vk.com/d.a2017" target="blank"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/dimitridis8" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="about adjust" id="about">
+				<div class="title">
+					<h2 class="animate-left">Обо мне</h2>
+				</div>
+				<div class="content">
+					<div class="text__box">
+						<p><span>БЫСТРО ОБУЧАЮСЬ</span>
+							<br>Я специалист в  области frontend разработки. В 2020 году изучил html, css, работал в scss, bootstrap, разобрался с git и gulp. 2021 год посвятил изучению javascript прошел курсы по react. Владею графическими редакторами, делаю кроссбраузерную верстку и адаптив.<br>
+							<span>OТВЕТСТВЕННЫЙ</span>
+							<br>Всегда ответственно подхожу к любому вопросу и разным мелочам ,готов обсудить любые нюансы, связанные с версткой. Со мной всегда можно договориться по выполнению работы и срокам, а также по цене.<br>
+							<span>ВСЕГДА НА СВЯЗИ</span>
+							<br>Мне можно писать в любое время, на почту или в соц сетях. Читаю документацию на английском языке. C удовольствием работаю в команде.</p>
+					</div>
+					<div class="img__box">
+						<img src="img/bg1.jpg" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="services adjust" id="services">
+				<div class="title">
+					<h2 class="animate-left">Мои навыки</h2>
+					<p>Без чего невозможно создать современный сайт</p>
+				</div>
+				<div class="content">
+					<div class="service__box">
+						<img src="img/icon1.svg" alt="">
+						<h2>html</h2>
+						<p>Стандартизированный язык разметки документов для просмотра веб-страниц в браузере.</p>
+					</div>
+					<div class="service__box">
+						<img src="img/icon2.svg" alt="">
+						<h2>css3</h2>
+						<p>Каскадные таблицы стилей — формальный язык описания внешнего вида веб-страницы, написанного с использованием языка разметки HTML.</p>
+					</div>
+					<div class="service__box">
+						<img src="img/icon3.svg" alt="">
+						<h2>JavaScript</h2>
+						<p>Мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили.</p>
+					</div>
+					<div class="service__box">
+						<img src="img/icon4.svg" alt="">
+						<h2>Bootstrap</h2>
+						<p>Свободный набор инструментов для создания сайтов и веб-приложений. Включает в себя HTML- и CSS-шаблоны оформления.</p>
+					</div>
+					<div class="service__box">
+						<img src="img/icon5.svg" alt="">
+						<h2>JQuery</h2>
+						<p>Набор функций JavaScript, фокусирующийся на взаимодействии JavaScript и HTML.</p>
+					</div>
+					<div class="service__box">
+						<img src="img/icon6.svg" alt="">
+						<h2>React</h2>
+						<p>JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов.</p>
+					</div>
+					<div class="service__box">
+						<img src="img/icon7.svg" alt="">
+						<h2>Sass</h2>
+						<p>Предназначен для увеличения уровня абстракции CSS-кода и упрощения файлов каскадных таблиц стилей.</p>
+					</div>
+					<div class="service__box">
+						<img src="img/icon8.svg" alt="">
+						<h2>Git</h2>
+						<p>Распределенная система контроля версий и управления исходным кодом с упором на скорость.</p>
+					</div>
+					<div class="service__box">
+						<img src="img/icon9.svg" alt="">
+						<h2>Figma</h2>
+						<p>Разработка интерфейсов и прототипирования с возможностью организации совместной работы в режиме реального времени.</p>
+					</div>
+				</div>
+			</section>
+			<section class="project adjust" id="project">
+				<div class="title">
+					<h2 class="animate-left">Мои работы</h2>
+					<p>В этом блоке Вы можете посмотреть некоторые примеры моих работ, подключение слайдеров, галерей, анимации, а также примеры верстки различных мелких элементов</p>
+				</div>
+				<div class="content">
+					<div class="work__box">
+						<div class="img__box">
+							<img src="cv/img/img8.jpg" alt="Cupid">
+						</div>
+						<a href="http://m92008lk.beget.tech/Cupid" target="blank">
+							<div class="text__box">
+								<h3>Project 01</h3>
+								<p>Одна из последних моих работ Помимо основных атрибутов современного сайта: слайдер, табы, форма обратной связи, анимация, в проекте выполнена изменяющаяся яркость свечения светильника с помощью JavaScript.</p>
+							</div>
+						</a>
+					</div>
+					<div class="work__box">
+						<div class="img__box">
+							<img src="cv/img/img9.jpg" alt="childen's-goods">
+						</div>
+						<a href="http://m92008lk.beget.tech/childen's-goods" target="blank">
+							<div class="text__box">
+								<h3>Project 02</h3>
+								<p>Карточка товара, с помощью flex и grid верстка выполнена адаптивно. С помощью JS выпонено: клик по миниатюре переключает основное фото; при клике по + - меняется количество товара; открытие меню на моб. при клике по иконке; шапка закреплена сверху, при скролле плавно пропадает/появляется; при добавлении в корзину/избранное показывается сообщение: товар '...' в количестве '...' единиц добавлен в корзину/избранное;</p>
+							</div>
+						</a>
+					</div>
+					<div class="work__box">
+						<div class="img__box">
+							<img src="cv/img/img7.jpg" alt="">
+						</div>
+						<a href="http://m92008lk.beget.tech/healthy-food" target="blank">
+							<div class="text__box">
+								<h3>Project 03</h3>
+								<p>Одна из последних моих работ В проекте имеются практически все атрибуты современного сайта: слайдер, табы, форма обратной связи, анимация. Меню фиксированное при скролле, выполнен адаптив сайта.</p>
+							</div>
+						</a>
+					</div>
+					<div class="work__box">
+						<div class="img__box">
+							<img src="cv/img/img1.jpg" alt="">
+						</div>
+						<a href="http://m92008lk.beget.tech/fooddelivery" target="blank">
+							<div class="text__box">
+								<h3>Project 04</h3>
+								<p>Проект выполнен в рамках обучающего курса "Udemi: Полный курс по JavaScript + React - с нуля до результата". В проекте используется много JavaScript кода (создание карточек, модальные окна, создание форм, слайдер, калькулятор подсчета каллорий, таймер обратного отсчета). Для получения данных с сервера используется файл db.json</p>
+							</div>
+						</a>
+					</div>
+					<div class="work__box">
+						<div class="img__box">
+							<img src="cv/img/img4.jpg" alt="">
+						</div>
+						<a href="http://m92008lk.beget.tech/snavr-engineering" target="blank">
+							<div class="text__box">
+								<h3>Project 05</h3>
+								<p>Проект выполнен мной самостоятельно, отражено множество креативных дизайнерских решений.</p>
+							</div>
+						</a>
+					</div>
+					<div class="work__box">
+						<div class="img__box">
+							<img src="cv/img/img5.jpg" alt="">
+						</div>
+						<a href="http://m92008lk.beget.tech/SneakMax" target="blank">
+							<div class="text__box">
+								<h3>Project 06</h3>
+								<p>Проект сайта-магазина выполнен в рамках обучающего видео на youtube. Применяется js для работы корзины, json - для подгрузки данных о товарах.</p>
+							</div>
+						</a>
+					</div>
+					<div class="work__box">
+						<div class="img__box">
+							<img src="cv/img/img6.jpg" alt="">
+						</div>
+						<a href="http://m92008lk.beget.tech/mebelgroup" target="blank">
+							<div class="text__box">
+								<h3>Project 07</h3>
+								<p>Проект выполнен в рамках обучающего видео на youtube, имеется много интерактива и анимации.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="contact adjust" id="contact">
+				<div class="title">
+					<h2 class="animate-left">Написать мне</h2>
+					<p>Этот раздел для связи со мной, где можно разместить свое предложение или оставить отзыв или пожелания о выполненной работе.</p>
+				</div>
+				<form action="sender.php" method="post" id="form" class="form__body">
+					<div class="row">
+						<input id="formName" type="text" name="name" placeholder="Имя*" required>
+						<input id="formName" type="text" name="surname" placeholder="Фамилия">
+					</div>
+					<div class="row">
+						<input id="formEmail" type="email" name="email" placeholder="Email*" required>
+						<input type="tel" data-validate-field="tel" name="phone" placeholder="Телефон">
+					</div>
+					<div class="row2">
+						<textarea name="text" id="formMessage" placeholder="Написать сообщение"></textarea>
+					</div>
+					<div class="row2">
+						<button type="button">Отправить</button>
+					</div>
+					<div class="status"></div>
+				</form>
+			</section>
+			<div class="copyright">
+				<p>Copyright © Dmitriy Andreev. All Right Reserved.</p>
+			</div>
+		</div>
+	</div>
+	<div class="loader__box">
+		<div class="container">
+			<div class="ring"></div>
+			<div class="ring"></div>
+			<div class="ring"></div>
+			<p>Loading...</p>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script>	
+		let toggle = document.querySelector('.toggle');
+		let topbar = document.querySelector('.topbar');
+		let navigation = document.querySelector('.navigation');
+		let main = document.querySelector('.main');
+		let themeSwitch = document.querySelector('.theme-switch');
+		let body = document.querySelector('body');
+		let loader = document.querySelector('.loader__box');
+		toggle.onclick = function() {
+			toggle.classList.toggle('active');
+			topbar.classList.toggle('active');
+			navigation.classList.toggle('active');
+			main.classList.toggle('active');
+		}
+
+		// theme switch toggle
+		themeSwitch.onclick = function() {
+			body.classList.toggle('dark')
+		}
+
+		//fix menu active class issue for mobile devices
+		function toggleMenu() {
+			let navigation = document.querySelector('.navigation');
+			let main = document.querySelector('.main');
+			navigation.classList.remove('active');
+			main.classList.remove('active');
+		}
+
+		// loader
+		window.addEventListener('load', () => {
+			loader.classList.add('preloader__remove');
+			setTimeout(() => {
+				loader.remove();
+			}, 600);
+		})
+
+		// scroll reveal
+		window.sr = ScrollReveal()
+
+		sr.reveal('.animate-left', {
+			origin: 'left',
+			duration: 1000,
+			distance: '25rem',
+			delay: 600
+		});
+		sr.reveal('.animate-right', {
+			origin: 'right',
+			duration: 1000,
+			distance: '25rem',
+			delay: 600
+		});
+		sr.reveal('.animate-top', {
+			origin: 'top',
+			duration: 1000,
+			distance: '25rem',
+			delay: 600
+		});
+		sr.reveal('.animate-bottom', {
+			origin: 'bottom',
+			duration: 1000,
+			distance: '25rem',
+			delay: 600
+		});
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="js/three.r119.min.js"></script>
+	<script src="js/vanta.birds.min.js"></script>
+	<script src="js/inputmask.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
